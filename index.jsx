@@ -1,14 +1,8 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
-  "Cantarell", "Ubuntu",  "Roboto", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #232934;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Consolas, Monaco, "Courier New",
-    monospace;
-} 
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import Store from "./Store";
+import { Provider } from "react-redux";
+import { MoralisProvider } from "react-moralis";
+import reportWebVitals from "./reportWebVitals";
